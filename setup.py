@@ -9,7 +9,7 @@ setup(name='fixtures_mongoengine',
       author_email='alaris.nik@gmail.com',
       url='https://github.com/coderfly/fixtures-mongoengine/',
       download_url='https://github.com/coderfly/fixtures-mongoengine/tarball/'+__version__,
-      install_requires=['mongoengine>=0.8.6'],
+      install_requires=['mongoengine>=0.8.6', 'six'],
       packages=['fixtures_mongoengine'],
       keywords=['testing', 'fixtures', 'mongoengine']
       )
